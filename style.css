@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Gowun+Batang&family=Marcellus+SC&display=swap');
+body {
+    background-image: url(images/poza08.jpg);
+    background-repeat: repeat;
+    font-family: 'Gowun Batang', serif;
+}
+
+#wrapper {
+    background-color: rgb(248,248,255);
+    border: solid rgb(153,102,0) 2px;
+    margin: auto;
+    width: 1000px;
+}
+header, main, footer {
+    padding: 5px 20px;
+}
+
+header {
+    border: solid black;
+}
+
+.bg {
+    color: rgb(255,255,255);
+    background-color: rgb(0,0,0);
+}
+
+h1 {
+    font-family: 'Eagle Lake', cursive;
+}
+
+h1 a {
+    color: rgb(255,255,255);
+    font-size: 35pt;
+    text-decoration: none;
+}
+
+h2 {
+    font-family: 'Marcellus SC', serif;
+    color: rgb(255,255,255);
+}
+
+nav {
+    background-color: rgb(101,67,33);
+}
+
+nav ul {
+    padding: 14px 0px;
+    margin: auto;
+    width: 960px;
+}
+nav ul li {
+    list-style-type: none;
+    border: 1px solid rgb(229,183,59);
+    border-radius: 20px;
+    box-shadow: 0px 4px 0px rgb(249, 201, 89);
+    width: 310px;
+    display: inline-block;
+    margin: 0px -2px;
+    padding: 4px;
+    background-color: rgb(153,101,21);
+}
+
+nav ul li:hover{
+    background-color: rgb(101,67,33);
+    box-shadow: 3px 3px 6px rgb(191, 134, 11);
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    color: rgb(0,0,0);
+    background-color: rgb(153,101,21);
+    border-radius: 20px;
+
+}
+
+a {
+    font-family: 'Marcellus SC', serif;
+    text-decoration: none;
+}
+
+div {
+    padding: 0px;
+}
+figure img {
+    border-radius: 20px;
+    margin: 0px;
+    border: double 3px rgb(165, 117, 216);
+}
+
+
+.banner {
+    margin-left: -20px;
+}
+
+figure {
+    margin: 20px 0px 10px 20px;
+    float: right;
+    border-radius: 20px;
+    border: dotted 3px rg
+}
+
+main {
+    padding-top: 0px;
+    background-color: rgb(255,255,255);
+}
+
+h3 {
+    font-family: 'Gowun Batang', serif;
+}
+
+.follow {
+    clear: both;
+}
+
+p {
+    line-height: 1.13em;
+    font-size: 14pt;
+}
+
+footer {
+    clear: both;
+}
+
+footer p {
+    color: rgb(255,255,255);
+    font-style: italic;
+}
